@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
-	<item android:drawable="@drawable/speak_open" android:duration="600"></item>
-	<item android:drawable="@drawable/speak" android:duration="600"></item>
-</animation-list>
-<!-- From: file:/Users/orange/lotterys1/app/src/main/res/drawable-hdpi/speak_switcher_height.xml -->
