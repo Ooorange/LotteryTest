@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">彩票显示</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="CurrentMaxMissed">当前遗漏</string>
+    <string name="MaxMissed">最大遗漏</string>
+    <string name="issue">期号</string>
+    <string name="winningNumber">奖号</string>
+    <string name="winningNumberDistribute">奖号分布     </string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="Failed_to_login">网络连接失败,数据未得到更新</string>
+    <string name="Failed_to_getTable_Data">未得到概率统计数据</string>
+    <string name="json_exception">json数据格式异常</string>
+    <string name="Successed_to_login">网络连接成功，有新数据</string>
+    <string name="Successed_to_login_but_NO_DATA">网络连接成功,但没有新数据</string>
+    <string name="Successed_to_getTable_Data">获取概率统计成功</string>
+    <string name="firstNumDis">第一位号码分布图</string>
+    <string name="SecondNumDis">第二位号码分布图</string>
+    <string name="ThirdNumDis">第三位号码分布图</string>
+    <string name="FourthNumDis">第四位号码分布图</string>
+    <string name="FifthNumDis">最后一列</string>
+    <string name="serial_number">序号</string>
+    <string name="number">号码</string>
+    <string name="probability">出现概率</string>
+    <string name="times">出现次数</string>
+    <string name="Num_pro">2.78%</string>
+    <string name="speaker_to_say_lottery">speaker_to_say_lottery</string>
+	
+	<string name="title_demo_list">Items</string>
+    <string name="title_demo_detail">Demo Detail</string>
+    <string name="title_activity_demo">CircularFloatingActionMenu</string>
+    <string name="title_activity_menu_with_fab">Floating Action Button</string>
+    <string name="title_activity_menu_with_custom_action_button">Custom Action Button</string>
+    <string name="title_activity_menu_with_custom_animation">Custom Animation</string>
+    <string name="title_activity_menu_in_scroll_view">Menu in ScrollView Sample</string>
+    <string name="title_activity_system_overlay">System Overlay Menu Sample</string>
+    
+</resources>

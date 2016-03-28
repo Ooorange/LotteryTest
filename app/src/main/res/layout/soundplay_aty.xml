@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_gravity="top">
+
+    <ImageView
+        android:id="@+id/speaker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/speaker_to_say_lottery"
+        android:src="@drawable/speak_switcher" />
+
+    <TextView
+        android:id="@+id/wordToSpeak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/speaker"
+        android:layout_marginRight="1dip"
+        android:layout_toRightOf="@+id/speaker"
+        android:background="@drawable/juxing_chat"
+        android:maxEms="10"
+        android:rotation="90"
+        android:textColor="@drawable/DarkBlue"
+        android:translationX="10dip" />
+
+</RelativeLayout>

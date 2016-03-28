@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/outmost"
+    android:orientation="vertical" >
+
+    <!-- 上边沿 -->
+
+    <TextView
+        android:id="@+id/textViewtop"
+        android:layout_width="match_parent"
+        android:layout_height="4dip"
+        android:background="@drawable/outmost" />
+ 
+    <cn.orange.drawLine.LotteryContentView
+        android:id="@+id/lotteryContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom"
+        android:layout_below="@+id/textViewtop"
+        android:layout_toLeftOf="@+id/outmostRight"
+        android:layout_toRightOf="@+id/textViewMessage" >
+    </cn.orange.drawLine.LotteryContentView>
+
+    <!-- 最外面左边沿开始 -->
+
+     <LinearLayout
+        android:id="@+id/textViewMessage"
+        android:layout_width="1dip"
+        android:gravity="left"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/outmost" >
+
+        <TextView
+            android:textColor="#0000ff"
+            android:id="@+id/message"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4dip"
+            />
+    </LinearLayout> 
+    <!-- 下面 -->
+    <TextView
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/outmost" />
+    <!-- 最外面右边沿开始 -->
+
+    <TextView
+        android:id="@+id/outmostRight"
+        android:layout_width="8dip"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/outmost" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/return_back"
+        android:background="@drawable/return_back"
+        android:visibility="visible"
+        android:layout_alignBottom="@+id/bottom"
+        android:layout_toRightOf="@+id/textViewMessage"
+        android:layout_toEndOf="@+id/textViewMessage" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/yesterday"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/return_back"
+        android:layout_toEndOf="@+id/return_back"  />
+    <!-- 最外面右边沿结束 -->
+
+    <Button
+        android:id="@+id/day_before"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/yesterday"
+        android:visibility="gone" />
+
+</RelativeLayout>

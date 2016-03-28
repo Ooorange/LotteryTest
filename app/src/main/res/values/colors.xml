@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="outmost">#cccccc</drawable>
+    <drawable name="DarkBlue">#0000ff</drawable><!-- 深蓝 -->
+    <drawable name="red">#ff33ff</drawable><!-- 红色 -->
+    <drawable name="softred">#ffccff</drawable><!-- 浅红 -->
+    <drawable name="white">#ffffff</drawable><!-- 白色 -->
+    <drawable name="grenn">#ccff99</drawable><!-- 青草绿- -->
+    <drawable name="grennPlus">#57abff</drawable><!-- 浅蓝+ -->
+    <drawable name="darkGreenCut">#3e33ff</drawable><!-- 深蓝蓝- -->
+    <color name="transparent">#0000</color>
+</resources>

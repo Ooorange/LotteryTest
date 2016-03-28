@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">	<stroke android:width="2dip" android:color="#FF0059b3" /><!-- 描边颜色 -->>
+</shape>
+<!-- From: file:/Users/orange/lotterys1/app/src/main/res/drawable-hdpi/text_line.xml -->

@@ -1,0 +1,70 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+  
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="smallTextView">
+        <item name="android:textSize">5sp</item>
+    </style>
+
+    <style name="lagerTextView">
+        <item name="android:textSize">7sp</item>
+    </style>
+
+    <style name="Theme.FloatActivity" parent="android:style/Theme.Translucent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="Theme.floatTable" parent="android:style/Theme.Translucent">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:gravity">right|top</item>
+        <item name="android:windowTitleBackgroundStyle">@style/titlebackground</item> 
+        <item name="android:backgroundDimEnabled">false</item>
+         <item name="android:windowTitleSize">20dip</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="titlebackground" parent="android:Theme">
+        <item name="android:windowTitleSize">7dip</item>
+        <item name="android:background">@drawable/grennPlus</item>
+    </style>
+
+    <style name="textStyleOfTable">
+        <item name="android:textColor">@drawable/DarkBlue</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dip</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:background">@drawable/text_bar</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="TitleOfTable">
+        <item name="android:textColor">@drawable/DarkBlue</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dip</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:background">@drawable/text_bar</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">9sp</item>
+    </style>
+    <style name="textStyleOfTableContent">
+        <item name="android:textColor">@drawable/darkGreenCut</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dip</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,22 @@
+# view res/layout/main_lottery.xml #generated:16
+# view res/layout/main_lottery_height_in_mobile.xml #generated:19
+-keep class cn.orange.drawLine.LotteryContentView { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class cn.orange.lottery.BootBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:20
+-keep class cn.orange.lottery.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class cn.orange.lottery.MissedTableActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class cn.orange.lottery.SoundPlayActivity { <init>(...); }
+
+# onClick res/layout/activity_main.xml #generated:11
+-keepclassmembers class * { *** click1(...); }
+
+# onClick res/layout/activity_main.xml #generated:19
+-keepclassmembers class * { *** click2(...); }
+
