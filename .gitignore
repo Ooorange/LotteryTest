@@ -1,6 +1,7 @@
 build/
 
-
+import-summary.txt
+lotterys1.iml
 #Files fpr the dalvik VM
 *.dex
 
