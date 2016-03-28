@@ -31,6 +31,8 @@ tmp/
 *.swp
 *~.nib
 local.properties
+gradlew
+gradle/
 # bind to eclipse
 #.settings/
 .loadpath
